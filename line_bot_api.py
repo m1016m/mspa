@@ -9,5 +9,5 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, FollowEvent, UnfollowEvent, StickerSendMessage, ImageSendMessage, LocationSendMessage
 )
 
-line_bot_api = LineBotApi('bvHQUsARF8FHgreZkiBLDdRNlna+MnKFjDgqwJN3SIN5/bOUqStNGTm4xtm+FgxV172TFJVpPOx9pLNA4tNXc2PMm/1QLxgLGff7tYrqPM616Y2rRoFDLAbgI83pq63WXRhHwCxZbuGMZmIX+3IhjgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('37fb7a10e001dab27a359d07932554fc')
+line_bot_api = LineBotApi('+4+JsmgivN+9T+zVRBs2W7HfSQllEmuFktzG389dSx+rdFSu70bTjPj9KzPuQ1wryPoWveIOuU7R3zJoRSKHqXr4A7J0fipA8U/2SJqBqFnfZN+YumI/b/Esx1KH1iRXPwTt/7kT2MVx7Ps9MJw/VAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('6b65cf18ef7c2da019d5ecd8a3caba9b')
