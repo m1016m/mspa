@@ -39,7 +39,8 @@ def about_us_event(event):
     line_bot_api.reply_message(
         event.reply_token,
         [text_message, sticker_message, image_message])
-    
+
+
 def location_event(event):
     location_message = LocationSendMessage(
         title='Master SPA',
