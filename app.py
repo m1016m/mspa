@@ -15,7 +15,7 @@ import os
 app = Flask(__name__)
 #讓程式自己去判斷如果是測試端就會使用APP_SETTINGS
 app.config.from_object(os.environ.get('APP_SETTINGS', 'config.DevConfig'))
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://m1016m:3SEOJjK0BODmVoultGEnkr4ggM7pLi16@dpg-cja6902683bs739mocc0-a.singapore-postgres.render.com/mspa'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://m1016m:3SEOJjK0BODmVoultGEnkr4ggM7pLi16@dpg-cja6902683bs739mocc0-a.singapore-postgres.render.com/mspa'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.app = app
 db.init_app(app)
